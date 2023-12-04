@@ -69,7 +69,7 @@ set :ssh_options,     {
 }
 # rbenv
 set :rbenv_type, :user
-set :rbenv_ruby, '2.7.7'
+set :rbenv_ruby, '3.2.2'
 # environment
 set :linked_dirs, fetch(:linked_dirs, []).push(
   'log',
