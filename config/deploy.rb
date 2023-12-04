@@ -38,7 +38,7 @@ set :repo_url, "git@github.com:yuji-otomo/deploy-test.git"
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
 
-server "本番環境のホスト名", port: 2525, roles: [:app, :web, :db], primary: true 
+server "otomo-VirtualBox", port: 2525, roles: [:app, :web, :db], primary: true 
 # server "本番環境のホスト名"は本番環境構築後に記述します。
 
 # user
