@@ -60,6 +60,7 @@ set :puma_error_log,  "#{release_path}/log/puma.error.log"
 set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true
+set :puma_daemonize, false
 # terminal
 set :pty,             true
 # ssh
