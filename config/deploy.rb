@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.18.0"
 
-set :application, "my_app_name"
+set :application, "deploy-test"
 set :repo_url, "git@github.com:yuji-otomo/deploy-test.git"
 
 # Default branch is :master
